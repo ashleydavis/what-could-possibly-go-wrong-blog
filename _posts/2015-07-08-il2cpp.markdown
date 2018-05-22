@@ -1,0 +1,88 @@
+---
+layout: post
+title: IL2CPP
+date: '2015-07-08 09:33:38'
+---
+
+A brief summary.
+
+We recently had [lightning talks](http://www.meetup.com/Game-Technology-Brisbane/events/222429496/) at [Game Technology Brisbane](http://gametechbrisbane.com/) and I spoke about IL2CPP. I had wanted to learn about it and doing the lightning talk was a good excuse. 
+
+If you have some experience you have probably already guessed the purpose of this technology. Even before I explain IL2CPP I can probably say that your guess is correct, it is essentially is what is implied by the name. 
+
+**What is it?** 
+
+IL2CPP is a [Unity3d](https://en.wikipedia.org/wiki/Unity_(game_engine)) technology for converting [C# code](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) to [C++ code](https://en.wikipedia.org/wiki/C%2B%2B) and from there [native compilation](https://en.wikipedia.org/wiki/Native_(computing)#Applications) for a particular [platform](https://en.wikipedia.org/wiki/Computing_platform).
+
+**Should I care about it?** 
+
+Basically, probably not. 
+
+Most Unity game developers won't have to care about it. Use of ILC2PP will be built-in when building for certain platforms, it happens *under the hood* and should be completely [transparent](https://en.wikipedia.org/wiki/Transparency_(human%E2%80%93computer_interaction)). 
+
+Just know that it will make your game run with native performance (on supported platforms) and you'll get your game on more platforms because IL2CPP makes it easier for Unity to support new platforms.
+
+However if you are a game tech enthusiast you will want to dig deeper...
+
+## What?
+
+IL2CPP is a Unity technology for compiling [.Net assemblies](https://en.wikipedia.org/wiki/Assembly_(CLI)) (that contain [IL](https://en.wikipedia.org/wiki/Common_Intermediate_Language)) to native platforms.
+
+It is comprised of an [*ahead of time* (AOT) compiler](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) and *runtime services*. It is worth mentioning that the compiler is *AOT* simply to distinguish it from normal .Net assemblies that are compiled [*just in time* (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation). 
+
+C# is certainly compiled... it is compiled ahead of time to *IL*. Normally then it is compiled to native code *just in time* prior to execution on the device. IL2CPP translates IL to C++, then to a native executable format as part of the *Unity build process* (and I don't mean that [old technique](http://engineering-game-dev.com/2009/12/15/the-evils-of-unity-builds/) to reduce C++ build times, if you are old enough to know about that).
+
+The *runtime services* provide the C# core library, the [Unity API](http://docs.unity3d.com/ScriptReference/), [reflection services](https://en.wikipedia.org/wiki/Reflection_(computer_programming)) and [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)). 
+
+
+## Why?
+
+Why is IL2CPP useful? 
+
+*For performance*. From a game developer perspective it will certainly result in better performance. [Native code](https://en.wikipedia.org/wiki/Reflection_(computer_programming)) requires no translation or just in time compilation, so you don't pay the cost of that at [runtime](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)). It also allows use of mature and reliable [automated code analysis and optimization](https://en.wikipedia.org/wiki/Optimizing_compiler) that is found in every professional grade C++ compiler. C++ compilers excel at this sort of thing and because they are compiled ahead of time they can afford to take extra time in the analysis to determine the most effective optimizations. You can't do much of this with just in time languages because it means you would pay extra loading time for your game as it is optimized at start up. 
+
+Unity have also said that they intend to optimize the C# core library specifically for use in game development. I'm not sure what this means exactly, but it could mean that the core library will be implemented directly in C++. This means that standard classes like the *List* class will have custom optimized C++ code.   
+
+*For cross-platform portability*. From Unity's perspective IL2CPP means they can more quickly and reliably port Unity to new platforms. This is because they won't have to port the C# runtime to each new platform. They will simply port the core library (which may already be native code by then) and the Unity API and each game will then be [cross-compiled](https://en.wikipedia.org/wiki/Cross_compiler) via ILC2PP and whatever native compiler is appropriate for the desired platform.
+
+Unity says you will have C# productivity with C++ performance. 
+
+## When?
+
+ILC2PP has shipped with Unity 5 and is ready for use now. In fact if you building for iOS 64 or WebGL then you are already using it and you may not have realized.
+
+Unity have said that ILC2PP is ready for use, but is undergoing continued development.
+
+## How?
+
+*il2cpp.exe* is a program that is included with Unity 5. If you search for it under your Unity folder you will find it (on Windows at least, not sure how it is packaged on the Mac).  When you make a build it is *il2cpp.exe* that does the work to translate your assemblies to C++ followed up by C++ compilation to produce the native executable for the target platform.
+
+The cool thing is that you can actually run *il2cpp.exe* on the command line and then manually inspect the C++ code that was output.  
+
+Garbage collection is currently implemented via *[libgc](https://github.com/ivmai/bdwgc/)*. It is designed to have other systems plugged in, so expect to see other garbage collections integrated in the future.
+
+Here is a diagram from the Unity blog that puts it in perspective:
+
+ ![](http://blogs.unity3d.com/wp-content/uploads/2015/04/il2cpp-toolchain-smaller.png)
+
+(Link to the Unity blog post at the end)
+
+## Caution?
+
+Cross-platform development can always be difficult and often requires a greater degree of testing. You will develop on a PC or Mac and you will do much testing on your dev system. However you must test frequently on a representative set of devices! 
+
+Too little testing on device accumulates risk that you will have many subtle problems to solve when you do test on the device. Test frequently, find and isolate problems as they are introduced. Isolated problems are much much easier to solve, than combined problems. Of course this isn't specifically related IL2CPP but any talk of cross-platform development isn't complete without the advice: test! test! test!
+
+Actually related to IL2CPP I have some concerns about debugging and performance analysis of games that have been transformed through this process. Debugging and performance analysis are hard enough generally with Unity and it is unclear to me as to how IL2CPP will impact this. Expect that you might be relegated [printf debugging](https://en.wikipedia.org/wiki/Debugging#printf_debugging) if Unity have shipped an incomplete technology. Unfortunately Unity are known for this kind of thing, for example streaming, which is better in Unity 5, but still requires much work from developers for use in a game.
+
+Last word of caution... always be careful taking on new technology. IL2CPP is only new and doesn't yet have years of testing and improvements behind it. If you are developing for an IL2CPP platform then you must factor this risk into your planning and be prepared for some possibly frustrating times as you encounter and report problems and then wait for fixes.
+
+## Some great news
+
+It looks like Microsoft and Unity are collaborating more and more. I hope this ultimately brings the latest version of C# to Unity. When that happens we'll have 7 years worth of C# features to catch up on! Good times :)
+
+## Resources
+
+http://blogs.unity3d.com/2014/05/20/the-future-of-scripting-in-unity/
+
+http://blogs.unity3d.com/2015/05/06/an-introduction-to-ilcpp-internals/

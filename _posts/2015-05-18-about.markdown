@@ -1,0 +1,29 @@
+---
+layout: post
+title: About
+date: '2015-05-18 09:28:00'
+---
+
+> The computing scientistÔÇÖs main challenge is not to get confused by the complexities of his own making.
+> ÔÇö E. W. Dijkstra
+
+Welcome to *What could possibly go wrong.com*.
+
+My name is Ashley Davis and this is where I publish articles about development for games, serious games and simulations. 
+
+Please consider supporting [this blog on Patreon](https://www.patreon.com/whatcouldpossiblygowrong).
+
+I'm an experienced developer writing to share my experience applying advanced software development techniques and concepts to the world of game development. I'm a an entrepreneur, software developer and a writer with many years of experience in the professional games industry. I [develop bespoke software](http://www.codecapers.com.au/) that spans multiple platforms. For my full background please see [Linkedin](https://au.linkedin.com/in/ashleydavis75). 
+
+I have founded games industry meetups in Brisbane, Australia. If you are in town please come to the meetup (and we are always after game dev presenters, so please get in touch):
+
+* http://www.meetup.com/Game-Technology-Brisbane/
+* http://www.meetup.com/Game-Development-Brisbane/
+
+Generally I like to keep things as simple as possible, but as the size of your code-base increases and complexity ramps up we need advanced techniques to help manage and control that complexity. These techniques are not to be taken lightly. They will suck up your time both in learning and implementation and as the name of the site implies...  they can go horribly wrong for you, so be warned.
+
+Hopefully armed with information you can better understand how to approach these techniques and see where they might help rather than hinder you. 
+
+If there is something in particular you want me to write about or if you have feedback please get in touch: [ashley@codecapers.com.au](mailto://ashley@codecapers.com.au).
+
+If you are interested in data wrangling, please check out my other blog [The Data Wrangler](http://www.the-data-wrangler.com/).
