@@ -1,0 +1,10 @@
+- label: Home
+  url: /
+  slug: home
+
+- label: About
+  url: /about
+  slug: about
+
+- label: The Book
+  url: http://bit.ly/2t2cJu2
