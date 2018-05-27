@@ -3,6 +3,7 @@ layout: post
 title: Scene traversal recipes for Unity (with bonus LINQ examples)
 image: "/content/images/2016/09/cover-1.png"
 date: '2016-09-05 00:13:48'
+permalink: scene-traversal-recipes-for-unity
 ---
 
 Every so often, be it in game code or in an editor extension you will need to traverse the scene or a part of the scene to perform processing on game objects.  

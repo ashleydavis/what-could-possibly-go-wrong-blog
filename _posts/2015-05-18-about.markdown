@@ -2,16 +2,15 @@
 layout: post
 title: About
 date: '2015-05-18 09:28:00'
+permalink: about
 ---
 
-> The computing scientistÔÇÖs main challenge is not to get confused by the complexities of his own making.
-> ÔÇö E. W. Dijkstra
+> The computing scientist's main challenge is not to get confused by the complexities of his own making.
+> ' E. W. Dijkstra
 
 Welcome to *What could possibly go wrong.com*.
 
 My name is Ashley Davis and this is where I publish articles about development for games, serious games and simulations. 
-
-Please consider supporting [this blog on Patreon](https://www.patreon.com/whatcouldpossiblygowrong).
 
 I'm an experienced developer writing to share my experience applying advanced software development techniques and concepts to the world of game development. I'm a an entrepreneur, software developer and a writer with many years of experience in the professional games industry. I [develop bespoke software](http://www.codecapers.com.au/) that spans multiple platforms. For my full background please see [Linkedin](https://au.linkedin.com/in/ashleydavis75). 
 
@@ -26,4 +25,4 @@ Hopefully armed with information you can better understand how to approach these
 
 If there is something in particular you want me to write about or if you have feedback please get in touch: [ashley@codecapers.com.au](mailto://ashley@codecapers.com.au).
 
-If you are interested in data wrangling, please check out my other blog [The Data Wrangler](http://www.the-data-wrangler.com/).
+If you are interested in data wrangling, please check out my other blog [The Data Wrangler](http://www.the-data-wrangler.com/) or my book [Data Wrangling with JavaScript](http://bit.ly/2t2cJu2).

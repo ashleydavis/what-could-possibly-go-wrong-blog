@@ -3,6 +3,7 @@ layout: post
 title: Fluent behavior trees for AI and game-logic
 image: ''
 date: '2016-02-14 02:04:00'
+permalink: fluent-behavior-trees-for-ai-and-game-logic
 ---
 
 **NOTE:** Since writing this article we've started using [Behaviour Designer](https://www.assetstore.unity3d.com/en/#!/content/15277?aid=1100lGjj). It's expensive (for the asset store) but it is really good and I highly recommend it.

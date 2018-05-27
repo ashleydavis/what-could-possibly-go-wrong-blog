@@ -7,6 +7,7 @@ tags:
 - c
 - unity
 - promises
+permalink: promises-for-game-development
 ---
 
 If you find an issue with this article or have feedback please email [ashley@codecapers.com.au](mailto:ashley@codecapers.com.au) or log an issue at [the github page](https://github.com/ashleydavis/promises-for-game-development).

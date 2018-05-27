@@ -3,6 +3,7 @@ layout: post
 title: 'Guest post: The tech behind Bees Won''t Exist'
 image: "/content/images/2016/11/screenshot-1.png"
 date: '2016-11-15 03:00:46'
+permalink: bees-wont-exist
 ---
 
 GIANT BEES HAVE DECIMATED HUMANITY! Every day, the low buzz of death approaches further. Can you hear it?

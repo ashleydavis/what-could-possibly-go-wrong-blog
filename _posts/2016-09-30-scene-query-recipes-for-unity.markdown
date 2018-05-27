@@ -2,6 +2,7 @@
 layout: post
 title: Scene query recipes for Unity
 date: '2016-09-30 01:17:00'
+permalink: scene-query-recipes-for-unity
 ---
 
 There are times when you need to search the Unity hierarchy for particular game objects. Often you need to find them by name, tag or component type. I have found that on occasion I've wanted to wanted a more expressive and flexible way of finding game objects. Some years ago when I was attempting to improve my skills in [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) hackery I made an important connection. 

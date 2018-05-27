@@ -2,6 +2,7 @@
 layout: post
 title: Threads, promises and Unity
 date: '2017-06-19 23:11:04'
+permalink: threads-promises-and-unity
 ---
 
 Are you interested in using threads with Unity? Wondering what promises, if anything, have to do with threads? In this post I answer an interesting question from Morgan Moon of [Cerebus Interactive](https://www.cerberusinteractive.com/) about the [C# promise library](https://github.com/Real-Serious-Games/C-Sharp-Promise), threads and Unity. I've been wanting to talk about threads for a while, so let's get into it.

@@ -2,6 +2,7 @@
 layout: post
 title: 'Agile Game Development with Scrum: Book Review and Interview'
 date: '2016-05-31 22:07:00'
+permalink: agile-game-development-with-scrum
 ---
 
 Do you use Scrum to make games? Do you want to use Scrum to make games? Are you simply wondering what this Scrum thing is? 

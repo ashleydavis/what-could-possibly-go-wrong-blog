@@ -2,6 +2,7 @@
 layout: post
 title: 'Bringing MVVM to Unity - Part 2: Property and event bindings'
 date: '2017-03-06 01:01:28'
+permalink: bringing-mvvm-to-unity-part-2-property-and-event-bindings
 ---
 
 Do you need a better way to structure your Unity UI and reduce complexity? Are you looking for a cohesive way to coordinate the multiple parts of your UI? 
