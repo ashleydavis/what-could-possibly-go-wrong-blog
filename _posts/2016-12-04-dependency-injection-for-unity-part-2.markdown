@@ -3,6 +3,7 @@ layout: post
 title: 'Dependency injection for Unity - Part 2: What does dependency injection replace?'
 date: '2016-12-04 00:51:00'
 permalink: dependency-injection-for-unity-part-2
+disqus_id: ghost-26
 ---
 
 Have you ever struggled to keep a game or application working as it evolves and as the complexity ramps up? Software is composed of a suite of interacting components that are wired together in a particular way. As the number of interacting components grows the wiring and the number of connections between components grows exponentially (a phenomenon known as [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law)). 

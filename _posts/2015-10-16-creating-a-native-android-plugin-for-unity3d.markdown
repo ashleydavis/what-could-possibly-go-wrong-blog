@@ -3,6 +3,7 @@ layout: post
 title: Creating a native Android plugin for Unity3d
 date: '2015-10-16 01:13:03'
 permalink: creating-a-native-android-plugin-for-unity3d
+disqus_id: ghost-9
 ---
 
 ## Introduction

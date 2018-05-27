@@ -3,6 +3,7 @@ layout: post
 title: The Dispatcher Pattern
 date: '2015-10-26 08:12:31'
 permalink: the-dispatcher-pattern
+disqus_id: ghost-10
 ---
 
 The dispatcher pattern is a method for scheduling (or *dispatching*) code for execution from a worker-[thread](https://en.wikipedia.org/wiki/Thread_(computing)) to the main-thread.

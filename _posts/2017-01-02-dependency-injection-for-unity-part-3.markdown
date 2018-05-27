@@ -3,6 +3,7 @@ layout: post
 title: 'Dependency injection for Unity - Part 3: Scene-based dependency injection'
 date: '2017-01-02 04:58:50'
 permalink: dependency-injection-for-unity-part-3
+disqus_id: ghost-27
 ---
 
 Welcome to 2017!

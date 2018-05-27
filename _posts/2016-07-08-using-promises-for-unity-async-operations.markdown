@@ -3,6 +3,7 @@ layout: post
 title: Using promises for Unity async operations
 date: '2016-07-08 22:45:37'
 permalink: using-promises-for-unity-async-operations
+disqus_id: ghost-19
 ---
 
 Are you struggling to understand how to use [promises](https://en.wikipedia.org/wiki/Futures_and_promises) in Unity? This article demonstrates, example by example, how to represent Unity's common asynchronous operations as promises.   

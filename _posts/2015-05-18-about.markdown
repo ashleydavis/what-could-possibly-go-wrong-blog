@@ -3,6 +3,7 @@ layout: post
 title: About
 date: '2015-05-18 09:28:00'
 permalink: about
+disqus_id: ghost-6
 ---
 
 > The computing scientist's main challenge is not to get confused by the complexities of his own making.

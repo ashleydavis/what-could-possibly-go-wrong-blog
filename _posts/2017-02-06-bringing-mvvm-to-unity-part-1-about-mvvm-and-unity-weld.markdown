@@ -4,6 +4,7 @@ title: 'Bringing MVVM to Unity - part 1: About MVVM and Unity-Weld'
 image: "/content/images/2017/02/Main.png"
 date: '2017-02-06 06:07:25'
 permalink: bringing-mvvm-to-unity-part-1-about-mvvm-and-unity-weld
+disqus_id: ghost-28
 ---
 
 Do you need a better way to structure your Unity UI and reduce complexity? Are you looking for a cohesive way to coordinate the multiple parts of your UI? 

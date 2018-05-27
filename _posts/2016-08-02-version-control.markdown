@@ -3,6 +3,7 @@ layout: post
 title: 'Version control: Effective use, issues and thoughts, from a gamedev perspective'
 date: '2016-08-02 07:08:07'
 permalink: version-control
+disqus_id: ghost-20
 ---
 
 Should you be using version control? 

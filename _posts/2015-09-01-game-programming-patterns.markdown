@@ -4,6 +4,7 @@ title: 'Game Programming Patterns: Book Review and Interview'
 featured: true
 date: '2015-09-01 09:41:05'
 permalink: game-programming-patterns
+disqus_id: ghost-8
 ---
 
 ## Design Patterns
