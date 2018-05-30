@@ -21,8 +21,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://wwwx.what-could-possibly-go-wrong.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ashleydavis75
 github_username:  ashleydavis
-logo: " content/images/2016/05/Update_logo_02.png"
-cover: "content/images/2016/05/blog_banner-2.jpg"
+logo: " /content/images/2016/05/Update_logo_02.png"
+cover: "/content/images/2016/05/blog_banner-2.jpg"
 
 # Build settings
 # https://www.taniarascia.com/make-a-static-website-with-jekyll/comment-page-1/
