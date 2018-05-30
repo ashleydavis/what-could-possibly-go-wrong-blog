@@ -7,7 +7,7 @@ tags:
 - c
 - unity
 - promises
-permalink: promises-for-game-development
+permalink: promises-for-game-development/
 disqus_id: ghost-4
 ---
 

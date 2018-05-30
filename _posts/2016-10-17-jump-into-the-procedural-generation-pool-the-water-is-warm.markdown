@@ -3,7 +3,7 @@ layout: post
 title: 'Guest Post: Jump into the Procedural Generation pool. The water is warm.'
 image: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAdHAAAAJGQ1MDQyODg4LTcyMWItNDIzNy1hNGMxLWJmMzhhZDg1MmNiYQ.jpg
 date: '2016-10-17 03:20:42'
-permalink: jump-into-the-procedural-generation-pool-the-water-is-warm
+permalink: jump-into-the-procedural-generation-pool-the-water-is-warm/
 disqus_id: ghost-23
 ---
 

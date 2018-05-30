@@ -3,7 +3,7 @@ layout: post
 title: Fluent behavior trees for AI and game-logic
 image: ''
 date: '2016-02-14 02:04:00'
-permalink: fluent-behavior-trees-for-ai-and-game-logic
+permalink: fluent-behavior-trees-for-ai-and-game-logic/
 disqus_id: ghost-14
 ---
 

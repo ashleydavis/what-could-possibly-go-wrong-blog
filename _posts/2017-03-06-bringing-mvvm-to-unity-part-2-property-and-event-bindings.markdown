@@ -2,7 +2,7 @@
 layout: post
 title: 'Bringing MVVM to Unity - Part 2: Property and event bindings'
 date: '2017-03-06 01:01:28'
-permalink: bringing-mvvm-to-unity-part-2-property-and-event-bindings
+permalink: bringing-mvvm-to-unity-part-2-property-and-event-bindings/
 disqus_id: ghost-29
 ---
 

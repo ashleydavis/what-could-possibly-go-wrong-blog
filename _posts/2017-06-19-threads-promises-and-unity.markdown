@@ -2,7 +2,7 @@
 layout: post
 title: Threads, promises and Unity
 date: '2017-06-19 23:11:04'
-permalink: threads-promises-and-unity
+permalink: threads-promises-and-unity/
 disqus_id: ghost-30
 ---
 

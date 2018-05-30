@@ -2,7 +2,7 @@
 layout: post
 title: Unity and NuGet + JSON.net
 date: '2016-01-11 09:05:32'
-permalink: unity-and-nuget
+permalink: unity-and-nuget/
 disqus_id: ghost-13
 ---
 

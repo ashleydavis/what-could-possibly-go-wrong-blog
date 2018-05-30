@@ -2,7 +2,7 @@
 layout: post
 title: Using promises for Unity async operations
 date: '2016-07-08 22:45:37'
-permalink: using-promises-for-unity-async-operations
+permalink: using-promises-for-unity-async-operations/
 disqus_id: ghost-19
 ---
 

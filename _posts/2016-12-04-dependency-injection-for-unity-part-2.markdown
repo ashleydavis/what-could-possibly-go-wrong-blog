@@ -2,7 +2,7 @@
 layout: post
 title: 'Dependency injection for Unity - Part 2: What does dependency injection replace?'
 date: '2016-12-04 00:51:00'
-permalink: dependency-injection-for-unity-part-2
+permalink: dependency-injection-for-unity-part-2/
 disqus_id: ghost-26
 ---
 

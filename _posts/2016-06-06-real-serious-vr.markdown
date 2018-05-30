@@ -2,7 +2,7 @@
 layout: post
 title: Real Serious VR - Live action video with CG background, captured to 360 video
 date: '2016-06-06 06:24:00'
-permalink: real-serious-vr
+permalink: real-serious-vr/
 disqus_id: ghost-18
 ---
 

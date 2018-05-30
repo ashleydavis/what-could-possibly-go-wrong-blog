@@ -2,7 +2,7 @@
 layout: post
 title: Testing for Game Development
 date: '2016-04-27 09:21:23'
-permalink: testing-for-game-development
+permalink: testing-for-game-development/
 disqus_id: ghost-15
 ---
 

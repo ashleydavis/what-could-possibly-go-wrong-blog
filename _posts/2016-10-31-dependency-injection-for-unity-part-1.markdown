@@ -2,7 +2,7 @@
 layout: post
 title: 'Dependency injection  for Unity - Part 1: About dependency injection'
 date: '2016-10-31 20:26:00'
-permalink: dependency-injection-for-unity-part-1
+permalink: dependency-injection-for-unity-part-1/
 disqus_id: ghost-24
 ---
 

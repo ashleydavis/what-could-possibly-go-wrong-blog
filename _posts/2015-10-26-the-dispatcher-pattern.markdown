@@ -2,7 +2,7 @@
 layout: post
 title: The Dispatcher Pattern
 date: '2015-10-26 08:12:31'
-permalink: the-dispatcher-pattern
+permalink: the-dispatcher-pattern/
 disqus_id: ghost-10
 ---
 

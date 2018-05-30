@@ -2,7 +2,7 @@
 layout: post
 title: Scene query recipes for Unity
 date: '2016-09-30 01:17:00'
-permalink: scene-query-recipes-for-unity
+permalink: scene-query-recipes-for-unity/
 disqus_id: ghost-22
 ---
 

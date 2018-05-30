@@ -3,7 +3,7 @@ layout: post
 title: 'Guest post: The tech behind Bees Won''t Exist'
 image: "/content/images/2016/11/screenshot-1.png"
 date: '2016-11-15 03:00:46'
-permalink: bees-wont-exist
+permalink: bees-wont-exist/
 disqus_id: ghost-25
 ---
 
