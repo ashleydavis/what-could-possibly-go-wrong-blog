@@ -23,7 +23,7 @@ In this article we will spend some time introducing promises and generally expla
 
 As you read this article keep in mind that we will never assert that promises are right for every situation. They certainly aren't the only tool you'll ever need in game development. Promises are a powerful tool for structuring complex asynchronous code and at first you might find they are difficult to appreciate. In a world where asynchronous code is becoming more and more prevalent we need patterns like this to help tame the ever-increasing complexity in our code.
 
-At Real Serious Games we use C# with Unity. If you intend to use promises with C# (combined with any C# game engine, not just Unity) you can get started straight away using our promises library. If you intend to use promises with Javascript you have plenty of good libraries at your disposal and the latest version of Javascript even includes promises. If you work with other languages, these techniques can still work for you, but youÔÇÖll have some work ahead to get started if you canÔÇÖt find an existing promises library.
+At Real Serious Games we use C# with Unity. If you intend to use promises with C# (combined with any C# game engine, not just Unity) you can get started straight away using our promises library. If you intend to use promises with Javascript you have plenty of good libraries at your disposal and the latest version of Javascript even includes promises. If you work with other languages, these techniques can still work for you, but you'll have some work ahead to get started if you can't find an existing promises library.
 
 Our C# promises library is available on github: [https://github.com/Real-Serious-Games/c-sharp-promise](https://github.com/Real-Serious-Games/c-sharp-promise).
 
@@ -344,7 +344,7 @@ This sounds more complicated than it actually is. We need a collection of functi
 
 As an example, let's say we have an NPC guard who follows a series of waypoints. When the behaviour is completed the NPC is reset to later be triggered again by the player. 
 
-We could use promises in the way mentioned above, chaining together *Then*s to build a sequence that moves the NPC over time through each of the waypoints. This means we need to know the waypoints at compile time. WeÔÇÖd like to make this data driven, loading the set of waypoints from data. This is a perfect opportunity for *Sequence*.
+We could use promises in the way mentioned above, chaining together *Then*s to build a sequence that moves the NPC over time through each of the waypoints. This means we need to know the waypoints at compile time. We'd like to make this data driven, loading the set of waypoints from data. This is a perfect opportunity for *Sequence*.
 
 Let's assume we have  a function for moving our NPC that returns a promise. The promise resolves when the NPC has moved into position:
 
@@ -381,7 +381,7 @@ Using promises in the above scenarios has clear benefits, however they really hi
 
 Most game developers will have used a timer in some way, tracking time is a necessary and important part of game development. Examples include power ups that last for a limited amount of time, end conditions based on time taken, time per lap in a racing game and at the top end of complexity, entire cutscenes that are sequences of many timed operations. 
 
-In it's simplest form a timer is used to trigger logic after a certain amount of time has passed. Once-off, this is a simple problem to solve in code. ItÔÇÖs a floating point value that is incremented by [delta elapsed time](https://unity3d.com/learn/tutorials/modules/beginner/scripting/delta-time) each update:
+In it's simplest form a timer is used to trigger logic after a certain amount of time has passed. Once-off, this is a simple problem to solve in code. It's a floating point value that is incremented by [delta elapsed time](https://unity3d.com/learn/tutorials/modules/beginner/scripting/delta-time) each update:
 
         void Update(float deltaTime)
         {
@@ -468,7 +468,7 @@ We have implemented the *PromiseTimer* class which can bridge the gap between pr
 				// Time is up
 			});
 
-LetÔÇÖs define a convenience function within the same class:
+Let's define a convenience function within the same class:
 
     PromiseTimer promiseTimer = new PromiseTimer();
 
@@ -691,7 +691,7 @@ Now we sequence textual information, allowing the option of waiting for the user
         }
     }
 
-Now letÔÇÖs build the sequence for the tutorial. We move the camera to a certain position, show 1 or more messages and wait for input:
+Now let's build the sequence for the tutorial. We move the camera to a certain position, show 1 or more messages and wait for input:
 
     Func<IPromise> PrepTutorialStage(
 		Vector3 cameraPosition, 
@@ -750,7 +750,7 @@ However, coroutines do have one major advantage: it is much easier to read the f
 
 While this is the only advantage to using coroutines, there are multiple disadvantages.
 
-It is difficult to build larger coroutines out of smaller coroutines. Nested coroutines are tough to manage, you can do it of course but at first it isn't obvious how to achieve it. Sure, itÔÇÖs simple enough if youÔÇÖve done it once or twice. Try doing it 100s of times. On the other hand promises can be stitched together and nested in many ways to produce larger sequences of logic. This sort of [composability](http://en.wikipedia.org/wiki/Composability) results in better [code reuse](http://en.wikipedia.org/wiki/Reusability). You'll end up with a library of higher-level promise-returning functions for common logic that you can compose to build new behaviour creating new and different game logic. Recomposing and rewiring promises is trivial and increases your ability for fast experimentation, something that is essential to being productive while searching for the tweaks that put the fun in your game.
+It is difficult to build larger coroutines out of smaller coroutines. Nested coroutines are tough to manage, you can do it of course but at first it isn't obvious how to achieve it. Sure, it's simple enough if you've done it once or twice. Try doing it 100s of times. On the other hand promises can be stitched together and nested in many ways to produce larger sequences of logic. This sort of [composability](http://en.wikipedia.org/wiki/Composability) results in better [code reuse](http://en.wikipedia.org/wiki/Reusability). You'll end up with a library of higher-level promise-returning functions for common logic that you can compose to build new behaviour creating new and different game logic. Recomposing and rewiring promises is trivial and increases your ability for fast experimentation, something that is essential to being productive while searching for the tweaks that put the fun in your game.
 
 Another problem with coroutines is the lack of control you have over them. Unity runs coroutines automatically, you don't have any control over when and how coroutines are advanced and you have no idea what coroutines are running at any particular point. This is why coroutines are particularly hard to debug (even though debugging a single coroutine is in fact easier). This is a complete disaster for understanding what your code is doing. The only control you have over coroutines is the ability to yield from within the coroutine (thus giving control back to Unity) or you can stop one or all coroutines. 
 
@@ -781,7 +781,7 @@ When you come to the limits of promises you may want to consider using behaviour
 
 Behaviour trees are typically data-driven and built by game designers using an editor. This allows non-programmers to directly build, tweak and balance and is the ideal way to build game logic and AI. For indie game devs it may not be an option to use a behaviour tree editor and it may not even be an option to actually have a game designer as often the programmer will also be the game designer. In these situations code-driven game AI can work very well. We have certainly pushed promises very far already in this space and have been very happy with the result. We can however *imagine* a code-driven fluent-API for behaviour trees that would better suit us in some circumstances. 
 
-Behaviour trees are easier to control. They are designed to be paused, stopped, restarted, etc. Promises are not designed to do these things, although we can at least pause or stop a time-based promise that is running via the *PromiseTimer*, however it is difficult if not impossible to stop a mid-flight asynchronous operation such as awaiting the result of an network transaction. It's not that we can't work around these issues with promises, but if you take promises far enough that you hit these issues, you might want to start thinking about using behaviour trees. What weÔÇÖre saying is you should use promises where they are usefulÔÇª and bring in behaviour trees for those areas where promises become unwieldy.
+Behaviour trees are easier to control. They are designed to be paused, stopped, restarted, etc. Promises are not designed to do these things, although we can at least pause or stop a time-based promise that is running via the *PromiseTimer*, however it is difficult if not impossible to stop a mid-flight asynchronous operation such as awaiting the result of an network transaction. It's not that we can't work around these issues with promises, but if you take promises far enough that you hit these issues, you might want to start thinking about using behaviour trees. What we're saying is you should use promises where they are usefulÔÇª and bring in behaviour trees for those areas where promises become unwieldy.
 
 Debugging can also be much easier for behaviour trees depending on the situation. If you have the luxury of having a behaviour tree editor you may also have some kind of visual behaviour tree debugger. This is great, but of course there is no substitute for debugging real code in a real debugger to work out what is going on. Debugging promises can be difficult, but at least you get to do it in a real debugger. We imagine that our fantasy behaviour tree fluent-API is easier to debug than the promises API.
 

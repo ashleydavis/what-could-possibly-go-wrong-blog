@@ -90,7 +90,7 @@ Take Scrum, understand it, then adapt it to your needs.
 
 *How did the book come to be written?*
 
-The book was written during the first few years I became a trainer/consultant.  It was based on the five years we applied Scrum: the lessons learned and the mistakes made.   I also felt the need to translate much of what was written and defined in agile to the game development language.  I developed my first game in 1976 and, after become a professional game developer in the mid-nineties.  Starting in 1995, I was running projects.   After suffering through a few death march crunches, I was ready to leave the industry around 2001.  Then I found Mark CernyÔÇÖs article about the myths of game development, which defined a way of working that started with exploration and finished with strong planning based on what that exploration found.  I can say this is the start of that journey to finding better ways of working that allows making games to be fun as well.  My ultimate goal is to help developers create those rare moments when they are fully engaged in making a game: enthusiastic with every ounce of energy focused on it and the team. 
+The book was written during the first few years I became a trainer/consultant.  It was based on the five years we applied Scrum: the lessons learned and the mistakes made.   I also felt the need to translate much of what was written and defined in agile to the game development language.  I developed my first game in 1976 and, after become a professional game developer in the mid-nineties.  Starting in 1995, I was running projects.   After suffering through a few death march crunches, I was ready to leave the industry around 2001.  Then I found Mark Cerny's article about the myths of game development, which defined a way of working that started with exploration and finished with strong planning based on what that exploration found.  I can say this is the start of that journey to finding better ways of working that allows making games to be fun as well.  My ultimate goal is to help developers create those rare moments when they are fully engaged in making a game: enthusiastic with every ounce of energy focused on it and the team. 
 
 *How long did you work in the industry before you discovered Scrum?*
 
@@ -98,7 +98,7 @@ The book was written during the first few years I became a trainer/consultant.  
 
 *How where you introduced to Scrum?*
 
-[Craig LarmanÔÇÖs book](http://www.amazon.com/Agile-Iterative-Development-Managers-Guide/dp/0131111558/ref=sr_1_6?s=books&ie=UTF8&qid=1460387845&sr=1-6&keywords=craig+larman).
+[Craig Larman's book](http://www.amazon.com/Agile-Iterative-Development-Managers-Guide/dp/0131111558/ref=sr_1_6?s=books&ie=UTF8&qid=1460387845&sr=1-6&keywords=craig+larman).
 
 *Was it mostly a bad experience before Scrum? How did things improve after Scrum?*
 
@@ -106,33 +106,33 @@ We were very disorganized, forming Sammy Studios, growing to hundreds and starti
 
 *I once worked at a company where Scrum was mandated by management and a lot of the employees end up hating it. On the other hand, I have seen Scrum work well elsewhere. Have you ever seen a Scrum implementation go horribly wrong? Was it a fixable situation?*
 
-Yes. ItÔÇÖs generally a ÔÇ£culture eats process for breakfastÔÇØ thing.  If you have a micromanaging culture that doesnÔÇÖt respect developers, then no process improvements will help much.
+Yes. It's generally a ÔÇ£culture eats process for breakfastÔÇØ thing.  If you have a micromanaging culture that doesn't respect developers, then no process improvements will help much.
 
-*You have clearly done much research for the book. From the stories and examples it seems that of lot of it comes from your own experience. Although you do have many side bars with stories and quotes from other industry veterans. How did you come by these stories? Where you collecting them for a long time? Or did you go through an intensive period of research and finding out other peopleÔÇÖs stories?*
+*You have clearly done much research for the book. From the stories and examples it seems that of lot of it comes from your own experience. Although you do have many side bars with stories and quotes from other industry veterans. How did you come by these stories? Where you collecting them for a long time? Or did you go through an intensive period of research and finding out other people's stories?*
 
-I just recruited contacts to share stories. It wasnÔÇÖt very hard!
+I just recruited contacts to share stories. It wasn't very hard!
 
 *One of the most illuminating parts of the book for me was the section on the relationship with the publisher, something I have mostly only had second hand experience. It seems that publishers have had trouble with the agile process. Have you found that publishers are becoming more accepting of agile processes over time?*
 
-To a degree. They understand the futility of demanding detailed deliverables in the short term, but donÔÇÖt engage in the inspect-and-adapt approach to course correct the game throughout. We still have the end-of-project crunches.
+To a degree. They understand the futility of demanding detailed deliverables in the short term, but don't engage in the inspect-and-adapt approach to course correct the game throughout. We still have the end-of-project crunches.
 
-*With the rise of the app store and Steam giving developers the ability to self-publish it seems to me that publishers are actually becoming less necessary. Do you think this is the case? And if so does it mean that game developers are getting a better hand when it comes to negotiating with publishers? Will this have an effect on publishers becoming more accepting of the developerÔÇÖs choice of development process?*
+*With the rise of the app store and Steam giving developers the ability to self-publish it seems to me that publishers are actually becoming less necessary. Do you think this is the case? And if so does it mean that game developers are getting a better hand when it comes to negotiating with publishers? Will this have an effect on publishers becoming more accepting of the developer's choice of development process?*
 
-Great question. The problem with self- or crowd-funding in many cases is that there ends up not being enough pressure to reign in excessive creative wandering or to add discipline to reduce waste. YouÔÇÖve seen examples of indies going off and throwing away massive amounts of work because they had a creative change of heart late in development. While having a creative change of heart isnÔÇÖt bad, it should be focused. The example of Miyamoto in the book is relevant. He would give us enough funds to ÔÇ£find the funÔÇØ up front and then get more detailed when we were green-lit to make all the levels. Having someone outside the team having some power ($$) and a subjective creative view can be useful. ItÔÇÖs less powerful than many traditional western publisher arrangements, but better for the games and players.
+Great question. The problem with self- or crowd-funding in many cases is that there ends up not being enough pressure to reign in excessive creative wandering or to add discipline to reduce waste. You've seen examples of indies going off and throwing away massive amounts of work because they had a creative change of heart late in development. While having a creative change of heart isn't bad, it should be focused. The example of Miyamoto in the book is relevant. He would give us enough funds to ÔÇ£find the funÔÇØ up front and then get more detailed when we were green-lit to make all the levels. Having someone outside the team having some power ($$) and a subjective creative view can be useful. It's less powerful than many traditional western publisher arrangements, but better for the games and players.
 
-*The book was published around 5 years ago. Since then have you been keeping track of Scrum and the gameÔÇÖs industry?  How do you think itÔÇÖs worked out since then?*
+*The book was published around 5 years ago. Since then have you been keeping track of Scrum and the game's industry?  How do you think it's worked out since then?*
 
-IÔÇÖve been a full-time independent agile trainer for the games industry for eight years, so IÔÇÖve been close to this.  ItÔÇÖs worked out well but, as mentioned, I am struck by the persistence of the classic mass-production mindset that is still prevalent in many managers. Scrum is often deformed to fit this mindset. Teams are told what Scrum rules they must mindlessly follow and they rebel at this version of Scrum which isnÔÇÖt anywhere near the heart of what we are trying to do.
+I've been a full-time independent agile trainer for the games industry for eight years, so I've been close to this.  It's worked out well but, as mentioned, I am struck by the persistence of the classic mass-production mindset that is still prevalent in many managers. Scrum is often deformed to fit this mindset. Teams are told what Scrum rules they must mindlessly follow and they rebel at this version of Scrum which isn't anywhere near the heart of what we are trying to do.
 
 *It seems to me, that since the book was published there has been an indie games revolution powered by self-publishing and cheaper and cheaper tools and tech. Your book is clearly geared towards large professional studios. Is there much room for Scrum to help small indie studios or is there too much overhead for a small team? At what team size do you think Scrum becomes effective?*
 
-Absolutely. IÔÇÖve worked with a number of indie studios and Scrum actually can work better for them than it can for AAA games with a hundred people working.
+Absolutely. I've worked with a number of indie studios and Scrum actually can work better for them than it can for AAA games with a hundred people working.
 
-I used some Agile/Scrum practices to write the book. I didnÔÇÖt have a daily scrum with myself, but I had a backlog and a burndown.;)
+I used some Agile/Scrum practices to write the book. I didn't have a daily scrum with myself, but I had a backlog and a burndown.;)
 
-Scrum isnÔÇÖt intrinsically effective, but people can be more or less effective based on how they work and communicate together. Scrum is simply a starting script and structure that gets people used to doing that. Part of that communication script is talking about how to improve upon the script itself so that, after a while, they have something that looks different, but has built a culture that follows [the Scrum values](http://blog.agilegamedevelopment.com/2015/05/the-scrum-values.html).
+Scrum isn't intrinsically effective, but people can be more or less effective based on how they work and communicate together. Scrum is simply a starting script and structure that gets people used to doing that. Part of that communication script is talking about how to improve upon the script itself so that, after a while, they have something that looks different, but has built a culture that follows [the Scrum values](http://blog.agilegamedevelopment.com/2015/05/the-scrum-values.html).
 
-I donÔÇÖt give a shit if they are standing in a circle answering three questions daily as long as they are building up such a culture. ;)
+I don't give a shit if they are standing in a circle answering three questions daily as long as they are building up such a culture. ;)
 
 # The structure of the book
 

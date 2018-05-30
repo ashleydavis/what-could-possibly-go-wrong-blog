@@ -685,7 +685,7 @@ Comparison: [https://en.wikipedia.org/wiki/Comparison_of_version_control_softwar
 Dylan is a programmer/designer and soon to release his first game, Alchemy Punch. He's also pretty excited about the game you're working on, [so tell him about it!](https://twitter.com/WraithDrof)
 
 ## Jason Stark, Disparity Games
-Jason Stark is a 20-year veteran of the games industry and a 23-year veteran of raising children. He has one games studio, four daughters, not much hair and even less time. His studio, Disparity Games, consists of him, his wife and whatever daughters happen to be available at the time. They have spent the last year releasing [Ninja Pizza Girl](http://www.disparitygames.com/ninja-pizza-girl/) and still arenÔÇÖt done yet.
+Jason Stark is a 20-year veteran of the games industry and a 23-year veteran of raising children. He has one games studio, four daughters, not much hair and even less time. His studio, Disparity Games, consists of him, his wife and whatever daughters happen to be available at the time. They have spent the last year releasing [Ninja Pizza Girl](http://www.disparitygames.com/ninja-pizza-girl/) and still aren't done yet.
 
 ## Daniel Vicarel
 

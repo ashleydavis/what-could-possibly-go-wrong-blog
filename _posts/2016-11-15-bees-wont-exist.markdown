@@ -9,7 +9,7 @@ disqus_id: ghost-25
 
 GIANT BEES HAVE DECIMATED HUMANITY! Every day, the low buzz of death approaches further. Can you hear it?
 
-DonÔÇÖt worry! ItÔÇÖs time for some pest control. Grab your sword. IÔÇÖll meet you by the hive!
+Don't worry! It's time for some pest control. Grab your sword. I'll meet you by the hive!
 
 [Bees Won't Exist](http://gamejolt.com/games/bees-won-t-exist/194883) is a fast-paced hack 'n' slash adventure game that I have been working on over the past year at [Honeyvale games](http://honeyvalegames.com/). We are a team of 5; my role consists of Lead Programmer and Senior Exotic Tea Provider. Bees Won't Exist is our final year project at Queensland University of Technology and I'm posting to share some insight into the kinds of tech we used, what worked well, and what didn't.
 
@@ -81,9 +81,9 @@ I think next time I make a game I would like to focus on marketing much earlier 
 
 # Final thoughts
 
-Overall IÔÇÖm really happy with how Bees WonÔÇÖt Exist Turned out. Sure, there are many things I would do differently if I had a chance to do this again, but we learnt a lot from this project and I think everyone is pretty happy with the result.
+Overall I'm really happy with how Bees Won't Exist Turned out. Sure, there are many things I would do differently if I had a chance to do this again, but we learnt a lot from this project and I think everyone is pretty happy with the result.
 
-ItÔÇÖs too early now to say what Honeyvale will be working on next (apart from bugfixes and patches for Bees WonÔÇÖt Exist), but weÔÇÖre definitely all going to keep making games so stay tuned!
+It's too early now to say what Honeyvale will be working on next (apart from bugfixes and patches for Bees Won't Exist), but we're definitely all going to keep making games so stay tuned!
 
 # About the Author
 
