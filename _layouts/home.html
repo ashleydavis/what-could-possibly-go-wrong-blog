@@ -22,8 +22,15 @@ body_class: home-template
 
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox"></div>
 
-	{% include subscribe.html %}
-
-    {% include loop.html %}
+    <div class="flex flex-wrap">
+        <div class="w-full md:w-3/4 lg:w-3/4 xl:w-3/4">
+            <div class="pr-4">
+                {% include loop.html %}
+            </div>
+        </div>
+        <div class="w-full md:w-1/4 lg:w-1/4 xl:w-1/4">
+            {% include support.html %}
+        </div>
+    </div>
 
 </main>
