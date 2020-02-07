@@ -1,1 +1,1 @@
-jekyll serve --config _config.yml,_config_dev.yml
+rm -rf _site && bundle exec jekyll serve --config _config.yml,_config_dev.yml --incremental --verbose
