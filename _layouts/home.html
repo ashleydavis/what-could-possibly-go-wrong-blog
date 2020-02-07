@@ -25,6 +25,10 @@ body_class: home-template
     <div class="flex flex-wrap">
         <div class="w-full md:w-3/4 lg:w-3/4 xl:w-3/4">
             <div class="pr-4">
+                <div class="text-2xl text-center">Be updated before anyone else...</div>
+                {% include subscribe.html %}
+            </div>
+            <div class="pr-4">
                 {% include loop.html %}
             </div>
         </div>
